@@ -20,7 +20,7 @@ def binary_search(arr, target):
     tail = len(arr) - 1
 
     while head <= tail: # while head/tail !==
-        mid = head + (tail - head) // 2 # finding the middle index of the arr
+        mid = (head + tail) // 2 # finding the middle index of the arr
 
         if arr[mid] == target: # if whatever the middle val we start on == target val return it
             return mid #return index
