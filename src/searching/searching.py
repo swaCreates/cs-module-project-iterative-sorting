@@ -4,8 +4,6 @@ def linear_search(arr, target):
         curr = arr[i]
         if curr == target: # if curr val == target val
             return i #return index
-        else: #move up in index
-            i += 1
 
     return -1   # not found
 
